@@ -1,11 +1,18 @@
 # connect
 A real-time chat application.
 
-# Demo the App
-- Follow the following link to try out the app: https://davmoba4-connect.netlify.app/
-- The app works best on a Google Chrome browser.
 
-# How to Run Locally
+## Visual Demo
+(no sound)
+
+https://user-images.githubusercontent.com/71296308/216512071-5d5d8fea-1001-44f0-9247-a61ac24b48fe.mp4
+
+
+## Overview
+Visit: https://davmoba4.com/project/connect/
+
+
+## How to Run Locally
 ### Backend
 - Navigate to the **server** folder on the terminal and run the following command to install the dependencies:
 ``` 
@@ -32,3 +39,17 @@ npm install
 ```
 npm start
 ```
+
+## Acknowledgments
+- Based and extended from: [mern-chat-app](https://github.com/piyush-eon/mern-chat-app).
+
+### Some Features I've Added
+- Guest account creation.
+- Dark mode and light mode.
+- Send button.
+- Time stamps.
+- Read receipts.
+- Emoji selection.
+- Real-time update of new message text preview.
+- Ability to change the group admin.
+- Ability to message someone from group by clicking their name.
