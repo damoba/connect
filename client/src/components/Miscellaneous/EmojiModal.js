@@ -62,18 +62,17 @@ const EmojiModal = ({ newMessage, setNewMessage }) => {
           <ModalHeader mb="5" />
           <ModalCloseButton />
           <ModalBody
-            d="flex"
-            flexWrap="wrap"
-            alignItems="center"
+            display="grid"
+            gridTemplateColumns="repeat(8, minmax(0, 1fr))"
+            gridGap="1em"
             overflowY="scroll"
             style={{ scrollbarWidth: "none" }}
-            justifyContent="space-between"
           >
             {codePoints.map((c) => (
               <Button
                 key={c}
                 fontSize="xl"
-                mb="2"
+                mb="1"
                 onClick={(event) => {
                   c !== "0x2764"
                     ? setNewMessage(newMessage + event.target.innerHTML)
