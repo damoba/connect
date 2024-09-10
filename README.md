@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/71296308/216512071-5d5d8fea-1001-44f0-
 
 
 ## Overview
-Visit: https://davmoba4.com/project/connect/
+Visit: [https://davmoba4.com/project/connect/](https://davidmorenobautista.netlify.app/project/connect/)
 
 
 ## How to Run Locally
